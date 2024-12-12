@@ -1,0 +1,21 @@
+.header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.home {
+  padding: 20px;
+  text-align: center;
+}

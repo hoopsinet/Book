@@ -1,0 +1,137 @@
+.characters-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: #f5f5f5;
+  overflow: hidden;
+}
+
+.character-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transition: transform 0.5s ease;
+  height: 100%;
+}
+
+.character-wrapper.left {
+  animation: slideInLeft 1s ease-out;
+}
+
+.character-wrapper.right {
+  animation: slideInRight 1s ease-out;
+}
+
+.character-card {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.character-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.character-image {
+  flex: 1;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.character-card:hover .character-image {
+  transform: scale(1.05);
+}
+
+/* Style pour l'emplacement réservé de l'image */
+.character-placeholder {
+  flex: 1;
+  width: 100%;
+  background: linear-gradient(45deg, #f3f3f3, #e1e1e1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.placeholder-text {
+  font-size: 1.5em;
+  color: #999;
+  text-align: center;
+}
+
+.character-card:hover .character-placeholder {
+  transform: scale(1.05);
+}
+
+.character-info {
+  padding: 20px;
+  text-align: center;
+  background: white;
+}
+
+.character-info h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.character-info p {
+  font-size: 1.1em;
+  color: #666;
+  line-height: 1.6;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .characters-container {
+    flex-direction: column;
+  }
+  
+  .character-wrapper {
+    padding: 10px;
+    height: 50%;
+  }
+  
+  .character-info h2 {
+    font-size: 1.5em;
+  }
+  
+  .character-info p {
+    font-size: 1em;
+  }
+  
+  .placeholder-text {
+    font-size: 1.2em;
+  }
+}
