@@ -399,20 +399,25 @@ h2 {
 }
 
 .page-content {
+  padding: 40px;
   height: 720px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  padding: 40px 40px 20px 40px;
   overflow: hidden;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: justify;
 }
 
 .page-title {
   font-size: 24px;
-  font-weight: bold;
-  text-align: center;
   margin-bottom: 20px;
+  text-align: center;
   font-family: Georgia, serif;
+}
+
+.page-text {
+  height: calc(100% - 60px);
+  overflow: hidden;
 }
 
 .character-page {
@@ -473,18 +478,6 @@ h2 {
 /* Ajustements spécifiques pour la page de droite */
 .right-page .character-page {
   padding-top: 64px;
-}
-
-.page-text {
-  font-size: 16px;
-  line-height: 1.8;
-  text-align: justify;
-  color: #333;
-  font-family: Georgia, serif;
-  flex-grow: 1;
-  margin-bottom: 30px;
-  text-indent: 30px;
-  overflow: hidden;
 }
 
 .page-number {

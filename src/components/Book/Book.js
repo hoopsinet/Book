@@ -122,20 +122,36 @@ const Book = () => {
     return pages;
   };
 
-  const getAllPages = () => {
-    if (cachedPages) return cachedPages;
+  const getAllPages = async () => {
+    try {
+      const response = await fetch('/roman.md');
+      const text = await response.text();
+      
+      // Séparer le contenu en chapitres
+      const chapters = text.split(/^## /m).filter(Boolean);
+      
+      const processedChapters = chapters.map(chapter => {
+        const lines = chapter.trim().split('\n');
+        const title = lines[0].trim();
+        const content = lines.slice(1).join('\n').trim();
+        return { title, content };
+      });
 
-    const prologuePages = splitTextIntoPages(bookContent.prologue.text);
-    const chapter1Pages = splitTextIntoPages(bookContent.chapter1.text);
-    const chapter2Pages = splitTextIntoPages(bookContent.chapter2.text);
-    const chapter3Pages = splitTextIntoPages(bookContent.chapter3.text);
-    
-    return {
-      pages: [...prologuePages, ...chapter1Pages, ...chapter2Pages, ...chapter3Pages],
-      prologueLength: prologuePages.length,
-      chapter1Length: prologuePages.length + chapter1Pages.length,
-      chapter2Length: prologuePages.length + chapter1Pages.length + chapter2Pages.length
-    };
+      // Diviser le contenu en pages
+      const pages = [];
+      processedChapters.forEach(chapter => {
+        const chapterPages = splitTextIntoPages(chapter.content);
+        pages.push(...chapterPages.map(page => ({
+          ...page,
+          chapter: chapter.title
+        })));
+      });
+
+      return { pages, chapters: processedChapters };
+    } catch (error) {
+      console.error('Error loading content:', error);
+      return { pages: [], chapters: [] };
+    }
   };
 
   const synopsis = `Dans un monde où la conformité règne en maître, Ryu, un adolescent désabusé, se retrouve piégé dans une routine quotidienne morne et dépourvue de sens. Au début de l'histoire, il se lève chaque matin dans une chambre qui témoigne de sa lassitude, se préparant à affronter une vie scolaire où il se sent invisible et rejeté. À travers ses yeux, nous découvrons un lycée qui ressemble plus à une prison qu'à un lieu d'apprentissage, où les rêves sont étouffés par le mépris des enseignants et les ricanements des camarades.
@@ -468,40 +484,40 @@ Il continua de ruminer, la cloche sonna, le tirant brusquement de ses pensées. 
         );
 
       case 'story':
-        const { pages, prologueLength, chapter1Length, chapter2Length } = cachedPages ? cachedPages : getAllPages();
+        const { pages, chapters } = cachedPages ? cachedPages : getAllPages();
         const leftPageIndex = currentPage;
         const rightPageIndex = currentPage + 1;
         
-        const isLeftPagePrologue = leftPageIndex < prologueLength;
-        const isRightPagePrologue = rightPageIndex < prologueLength;
-        const isLeftPageChapter1 = leftPageIndex >= prologueLength && leftPageIndex < chapter1Length;
-        const isRightPageChapter1 = rightPageIndex >= prologueLength && rightPageIndex < chapter1Length;
-        const isLeftPageChapter2 = leftPageIndex >= chapter1Length && leftPageIndex < chapter2Length;
-        const isRightPageChapter2 = rightPageIndex >= chapter1Length && rightPageIndex < chapter2Length;
-        const isLeftPageChapter3 = leftPageIndex >= chapter2Length;
-        const isRightPageChapter3 = rightPageIndex >= chapter2Length;
+        const isLeftPagePrologue = leftPageIndex < chapters[0].content.split('\n\n').length;
+        const isRightPagePrologue = rightPageIndex < chapters[0].content.split('\n\n').length;
+        const isLeftPageChapter1 = leftPageIndex >= chapters[0].content.split('\n\n').length && leftPageIndex < chapters[0].content.split('\n\n').length + chapters[1].content.split('\n\n').length;
+        const isRightPageChapter1 = rightPageIndex >= chapters[0].content.split('\n\n').length && rightPageIndex < chapters[0].content.split('\n\n').length + chapters[1].content.split('\n\n').length;
+        const isLeftPageChapter2 = leftPageIndex >= chapters[0].content.split('\n\n').length + chapters[1].content.split('\n\n').length && leftPageIndex < chapters[0].content.split('\n\n').length + chapters[1].content.split('\n\n').length + chapters[2].content.split('\n\n').length;
+        const isRightPageChapter2 = rightPageIndex >= chapters[0].content.split('\n\n').length + chapters[1].content.split('\n\n').length && rightPageIndex < chapters[0].content.split('\n\n').length + chapters[1].content.split('\n\n').length + chapters[2].content.split('\n\n').length;
+        const isLeftPageChapter3 = leftPageIndex >= chapters[0].content.split('\n\n').length + chapters[1].content.split('\n\n').length + chapters[2].content.split('\n\n').length;
+        const isRightPageChapter3 = rightPageIndex >= chapters[0].content.split('\n\n').length + chapters[1].content.split('\n\n').length + chapters[2].content.split('\n\n').length;
 
         // Détermine si nous devons afficher les titres
         const showPrologueTitle = leftPageIndex === 0;
-        const showChapter1Title = leftPageIndex === prologueLength;
-        const showChapter2Title = leftPageIndex === chapter1Length;
-        const showChapter3Title = leftPageIndex === chapter2Length;
+        const showChapter1Title = leftPageIndex === chapters[0].content.split('\n\n').length;
+        const showChapter2Title = leftPageIndex === chapters[0].content.split('\n\n').length + chapters[1].content.split('\n\n').length;
+        const showChapter3Title = leftPageIndex === chapters[0].content.split('\n\n').length + chapters[1].content.split('\n\n').length + chapters[2].content.split('\n\n').length;
 
         return (
           <div className="book-pages">
             <div className={`book-page left-page ${isPageTurning && turningDirection === 'prev' ? 'turning' : ''}`}>
               <div className="page-content">
                 {showPrologueTitle && (
-                  <h2 className="page-title">{bookContent.prologue.title}</h2>
+                  <h2 className="page-title">{chapters[0].title}</h2>
                 )}
                 {showChapter1Title && (
-                  <h2 className="page-title">{bookContent.chapter1.title}</h2>
+                  <h2 className="page-title">{chapters[1].title}</h2>
                 )}
                 {showChapter2Title && (
-                  <h2 className="page-title">{bookContent.chapter2.title}</h2>
+                  <h2 className="page-title">{chapters[2].title}</h2>
                 )}
                 {showChapter3Title && (
-                  <h2 className="page-title">{bookContent.chapter3.title}</h2>
+                  <h2 className="page-title">{chapters[3].title}</h2>
                 )}
                 <div className="page-text">
                   {pages[leftPageIndex]}
