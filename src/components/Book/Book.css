@@ -9,29 +9,33 @@ body {
 }
 
 .book-container {
+  position: relative;
+  height: 90vh;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+  transform-origin: center;
+  perspective: 2000px;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  width: 100%;
 }
 
-.book {
-  position: relative;
-  width: 148mm;  /* Largeur A5 */
-  height: 210mm; /* Hauteur A5 */
-  transform-style: preserve-3d;
-  transition: transform 0.6s ease;
-}
-
-.book.show-back {
+.book-container.show-back {
   transform: rotateY(180deg);
 }
 
 .front-cover, .back-cover {
   position: absolute;
-  width: 148mm;
-  height: 210mm;
+  height: 90vh;
+  width: calc(90vh * 0.62);
+  max-height: 90vh;
+  max-width: 95vw;
   backface-visibility: hidden;
+  transform-origin: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .back-cover {
@@ -39,34 +43,41 @@ body {
 }
 
 .cover-image, .back-image {
-  position: absolute;
-  width: 148mm;
-  height: 210mm;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
+  display: block;
 }
 
 .cover-content {
   position: absolute;
-  top: 20mm;
-  left: 0;
-  right: 0;
+  top: 10%;
+  left: 10%;
+  right: 10%;
   text-align: center;
   z-index: 2;
+  padding: 2vh;
 }
 
 .cover-content h1 {
   font-family: 'Times New Roman', serif;
-  font-size: 24pt;
-  color: #333;
-  margin-bottom: 10mm;
+  font-size: calc(2.2vh + 1vw);
+  color: white;
+  margin-bottom: 2vh;
   text-transform: uppercase;
-  text-shadow: 2px 2px 4px rgba(128, 128, 128, 0.8);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  line-height: 1.2;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
 }
 
 .cover-content .author {
   font-family: 'Times New Roman', serif;
-  font-size: 14pt;
-  color: #333;
+  font-size: calc(1.2vh + 0.5vw);
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .back-content {
@@ -75,17 +86,18 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 25mm 20mm;
-  z-index: 2;
+  padding: 10% 8%;
   display: flex;
   flex-direction: column;
+  z-index: 2;
+  overflow-y: auto;
 }
 
 .back-content h2 {
   font-family: 'Times New Roman', serif;
-  font-size: 16pt;
+  font-size: calc(2vh + 1vw);
   color: black;
-  margin-bottom: 10mm;
+  margin-bottom: 3vh;
   text-transform: uppercase;
   text-align: center;
   text-shadow: 0 0 3px white;
@@ -93,17 +105,13 @@ body {
 
 .synopsis {
   font-family: 'Times New Roman', serif;
-  font-size: 10pt;
+  font-size: calc(1.2vh + 0.5vw);
   line-height: 1.4;
   color: black;
   text-align: justify;
   margin: 0 auto;
-  margin-bottom: 10mm;
-  max-width: 108mm;
+  margin-bottom: 3vh;
   text-shadow: 0 0 3px white;
-  overflow-y: auto;
-  padding-right: 5mm;
-  flex: 1;
 }
 
 .synopsis p {
@@ -111,49 +119,54 @@ body {
 }
 
 .publisher-info {
+  margin-top: auto;
   text-align: center;
   color: black;
   text-shadow: 0 0 3px white;
-  margin-bottom: 20mm;
+  font-size: calc(1vh + 0.5vw);
 }
 
 .isbn {
   font-family: 'Times New Roman', serif;
-  font-size: 9pt;
+  font-size: 5pt;
   margin-bottom: 2mm;
 }
 
-/* Styles des boutons */
 .buttons {
   position: absolute;
-  bottom: 20mm;
-  left: 15mm;
-  right: 15mm;
+  bottom: 4vh;
+  left: 6%;
+  right: 6%;
   display: flex;
   justify-content: space-between;
-  gap: 5mm;
+  gap: 1.5vh;
   z-index: 3;
 }
 
 .buttons button {
-  padding: 2mm 4mm;
-  font-size: 9pt;
+  padding: 0.8vh 1.5vh;
+  font-size: calc(0.8vh + 0.4vw);
   color: white;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   border: 1px solid white;
-  border-radius: 2mm;
+  border-radius: 4px;
   cursor: pointer;
-  transition: all 0.3s ease;
   white-space: nowrap;
   flex: 1;
   min-width: 0;
-  max-width: 32mm;
+  max-width: 35%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.front-cover .buttons button:hover {
-  background-color: white;
-  color: black;
-  transform: translateY(-1mm);
+.buttons button:first-child {
+  max-width: 40%;
+}
+
+.buttons button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  transform: translateY(-1px);
 }
 
 .back-cover .buttons {
@@ -165,7 +178,65 @@ body {
 }
 
 .back-cover .buttons button:hover {
-  background-color: white;
-  color: black;
-  transform: rotateY(180deg) translateY(-1mm);
+  background-color: rgba(0, 0, 0, 0.9);
+  transform: rotateY(180deg) translateY(-1px);
+}
+
+/* Media queries pour les petits écrans */
+@media screen and (max-width: 768px) {
+  .front-cover, .back-cover {
+    height: 80vh;
+    width: calc(80vh * 0.62);
+  }
+  
+  .back-content {
+    padding: 8% 6%;
+  }
+  
+  .synopsis {
+    font-size: calc(1.4vh + 0.6vw);
+  }
+  
+  .buttons {
+    bottom: 3vh;
+  }
+  
+  .buttons button {
+    font-size: calc(1vh + 0.4vw);
+    padding: 0.6vh 1.2vh;
+  }
+  
+  .cover-content h1 {
+    font-size: calc(2vh + 0.8vw);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .front-cover, .back-cover {
+    height: 70vh;
+    width: calc(70vh * 0.62);
+  }
+  
+  .back-content {
+    padding: 6% 4%;
+  }
+  
+  .buttons {
+    flex-direction: column;
+    gap: 1vh;
+    bottom: 2vh;
+  }
+  
+  .buttons button {
+    max-width: 100%;
+    padding: 1vh 2vh;
+  }
+  
+  .cover-content {
+    top: 10%;
+  }
+  
+  .cover-content h1 {
+    font-size: calc(1.8vh + 0.8vw);
+  }
 }
