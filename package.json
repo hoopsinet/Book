@@ -1,8 +1,8 @@
 {
   "name": "windsurf-app",
   "version": "0.1.0",
-  "homepage": "https://hoopsinet.github.io/Book",
   "private": true,
+  "homepage": "https://hoopsinet.github.io/Book",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -46,6 +46,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.3.0"
   }
 }
