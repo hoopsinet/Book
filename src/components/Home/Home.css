@@ -1,12 +1,165 @@
 .home {
-  width: 100vw;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
+  width: 100vw;
   overflow: hidden;
-  position: relative;
+  background: #f5f5f5;
 }
 
 .home__content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
+  padding: 2rem;
+}
+
+.book-cover {
   position: relative;
+  width: 500px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  cursor: pointer;
+  background: white;
+  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  transform: translateY(-30px);
+}
+
+.book-cover:hover {
+  transform: translateY(-30px) scale(1.02);
+  box-shadow: 12px 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.book-info {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  pointer-events: none;
+}
+
+.book-cover h2 {
+  margin: 0;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  font-family: 'Georgia', serif;
+  line-height: 1.2;
+}
+
+.author-name {
+  color: white;
+  font-style: italic;
+  margin: 15px 0;
+  font-size: 1.8rem;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  font-family: 'Georgia', serif;
+}
+
+.toggle-cover-btn {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  z-index: 2;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px);
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.toggle-cover-btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+  border-color: white;
+}
+
+.back-cover-text {
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  right: 10%;
+  bottom: 15%;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow-y: auto;
+  padding: 15px;
+  text-align: justify;
+}
+
+@media (max-width: 1200px) {
+  .book-cover {
+    width: 400px;
+    height: 600px;
+    transform: translateY(-20px);
+  }
+
+  .book-cover:hover {
+    transform: translateY(-20px) scale(1.02);
+  }
+
+  .book-cover h2 {
+    font-size: 2.5rem;
+  }
+
+  .author-name {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home__content {
+    padding: 1rem;
+  }
+
+  .book-cover {
+    width: 300px;
+    height: 450px;
+    transform: translateY(-15px);
+  }
+
+  .book-cover:hover {
+    transform: translateY(-15px) scale(1.02);
+  }
+
+  .book-cover h2 {
+    font-size: 2rem;
+  }
+
+  .author-name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
 }

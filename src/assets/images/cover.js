@@ -1,4 +1,4 @@
 // Importation de l'image de couverture
-import coverImage from './book-covers/couverture1.jpg'  // Assurez-vous que l'image existe dans ce dossier
+const coverImage = '/assets/images/book-covers/couverture1.jpg';  // Chemin public vers l'image
 
-export default coverImage;
+export { coverImage };

@@ -5,9 +5,8 @@ const useBookStore = create((set) => ({
   chapters: [
     {
       id: 1,
-      title: "L'arrivée à Tokyo",
-      content: "Notre aventure commence dans les rues animées de Tokyo. Les néons illuminent la nuit, créant une atmosphère unique et envoûtante...",
-      image: "/images/chapters/tokyo.jpg"
+      title: "Prologue : Le Réveil de Ryu",
+      content: "Le réveil sonna, à 6h. Comme tous les matins. Ryu ouvrit péniblement les yeux...",
     },
     {
       id: 2,

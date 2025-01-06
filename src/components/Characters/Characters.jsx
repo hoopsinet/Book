@@ -1,5 +1,6 @@
 import React from 'react';
-import adelineImage from '../../assets/images/characters';
+import adelineImage from '../../assets/images/Adeline.jpeg';
+import ryuImage from '../../assets/images/book-covers/Ryu.jpeg';
 import './Characters.css';
 
 const Characters = () => {
@@ -10,18 +11,16 @@ const Characters = () => {
           <img src={adelineImage} alt="Adeline" className="character-image" />
           <div className="character-info">
             <h2>Adeline</h2>
-            <p>Une jeune fille pleine de mystères...</p>
+            <p>Une élève studieuse et mystérieuse qui cache plus qu'elle ne le montre.</p>
           </div>
         </div>
       </div>
       <div className="character-wrapper right">
         <div className="character-card">
-          <div className="character-placeholder">
-            <div className="placeholder-text">Image à venir</div>
-          </div>
+          <img src={ryuImage} alt="Ryu" className="character-image" />
           <div className="character-info">
             <h2>Ryu</h2>
-            <p>Un personnage énigmatique...</p>
+            <p>Un lycéen solitaire et désabusé qui se remet en question sur son avenir.</p>
           </div>
         </div>
       </div>
