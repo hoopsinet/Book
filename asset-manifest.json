@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Book/static/css/main.2a0c8eb8.css",
-    "main.js": "/Book/static/js/main.b5ed89b3.js",
-    "static/js/453.ed124ae6.chunk.js": "/Book/static/js/453.ed124ae6.chunk.js",
-    "static/media/Adeline.jpeg": "/Book/static/media/Adeline.26466181b7caf7aab574.jpeg",
-    "static/media/Ryu.jpeg": "/Book/static/media/Ryu.800c92b7aedc4710f2b6.jpeg",
-    "static/media/Dos.png": "/Book/static/media/Dos.f10c0f15db2e8e59d406.png",
-    "static/media/couverture1.jpg": "/Book/static/media/couverture1.79cf7bedab2de94cf496.jpg",
-    "index.html": "/Book/index.html",
-    "main.2a0c8eb8.css.map": "/Book/static/css/main.2a0c8eb8.css.map",
-    "main.b5ed89b3.js.map": "/Book/static/js/main.b5ed89b3.js.map",
-    "453.ed124ae6.chunk.js.map": "/Book/static/js/453.ed124ae6.chunk.js.map"
+    "main.css": "/windsurf-app/static/css/main.1d2c7c8f.css",
+    "main.js": "/windsurf-app/static/js/main.56019669.js",
+    "static/media/Adeline.jpeg": "/windsurf-app/static/media/Adeline.26466181b7caf7aab574.jpeg",
+    "static/media/Dos.png": "/windsurf-app/static/media/Dos.f10c0f15db2e8e59d406.png",
+    "static/media/Ryu.jpeg": "/windsurf-app/static/media/Ryu.743311249935feb939fb.jpeg",
+    "static/media/couverture1.jpg": "/windsurf-app/static/media/couverture1.79cf7bedab2de94cf496.jpg",
+    "index.html": "/windsurf-app/index.html",
+    "static/media/arrow-left.svg": "/windsurf-app/static/media/arrow-left.628a4dbe8f423b62b0468e302633b5dc.svg",
+    "static/media/arrow-right.svg": "/windsurf-app/static/media/arrow-right.e373feae435497766e70a3b617ff1ce9.svg",
+    "main.1d2c7c8f.css.map": "/windsurf-app/static/css/main.1d2c7c8f.css.map",
+    "main.56019669.js.map": "/windsurf-app/static/js/main.56019669.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a0c8eb8.css",
-    "static/js/main.b5ed89b3.js"
+    "static/css/main.1d2c7c8f.css",
+    "static/js/main.56019669.js"
   ]
 }
