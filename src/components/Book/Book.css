@@ -132,58 +132,52 @@ body {
   margin-bottom: 2mm;
 }
 
-.buttons {
+.book-buttons {
   position: absolute;
-  bottom: 4vh;
-  left: 6%;
-  right: 6%;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  justify-content: space-between;
-  gap: 1.5vh;
+  gap: 15px;
   z-index: 3;
+  width: 90%;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.buttons button {
-  padding: 0.8vh 1.5vh;
-  font-size: calc(0.8vh + 0.4vw);
+.book-button {
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
-  background-color: rgba(0, 0, 0, 0.8);
-  border: 1px solid white;
-  border-radius: 4px;
+  border: none;
+  border-radius: 20px;
   cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Times New Roman', serif;
+  min-width: 180px;
   white-space: nowrap;
-  flex: 1;
-  min-width: 0;
-  max-width: 35%;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.buttons button:first-child {
-  max-width: 40%;
-}
-
-.buttons button:hover {
+.book-button:hover {
   background-color: rgba(0, 0, 0, 0.9);
-  transform: translateY(-1px);
+  transform: scale(1.05);
 }
 
-.back-cover .buttons {
+.back-cover .book-buttons {
   transform: rotateY(180deg);
 }
 
-.back-cover .buttons button {
+.back-cover .book-button {
   transform: rotateY(180deg);
 }
 
-.back-cover .buttons button:hover {
+.back-cover .book-button:hover {
   background-color: rgba(0, 0, 0, 0.9);
-  transform: rotateY(180deg) translateY(-1px);
+  transform: rotateY(180deg) scale(1.05);
 }
 
-/* Media queries pour les petits écrans */
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .front-cover, .back-cover {
     height: 80vh;
     width: calc(80vh * 0.62);
@@ -197,21 +191,20 @@ body {
     font-size: calc(1.4vh + 0.6vw);
   }
   
-  .buttons {
-    bottom: 3vh;
+  .book-buttons {
+    bottom: 6%;
+    gap: 10px;
+    width: 95%;
   }
   
-  .buttons button {
-    font-size: calc(1vh + 0.4vw);
-    padding: 0.6vh 1.2vh;
-  }
-  
-  .cover-content h1 {
-    font-size: calc(2vh + 0.8vw);
+  .book-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    min-width: 150px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .front-cover, .back-cover {
     height: 70vh;
     width: calc(70vh * 0.62);
@@ -221,15 +214,16 @@ body {
     padding: 6% 4%;
   }
   
-  .buttons {
+  .book-buttons {
     flex-direction: column;
-    gap: 1vh;
-    bottom: 2vh;
+    align-items: center;
+    bottom: 4%;
+    gap: 8px;
   }
   
-  .buttons button {
-    max-width: 100%;
-    padding: 1vh 2vh;
+  .book-button {
+    width: 100%;
+    max-width: 200px;
   }
   
   .cover-content {

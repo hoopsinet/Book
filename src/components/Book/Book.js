@@ -35,10 +35,10 @@ const Book = ({ onReadClick, onCharactersClick }) => {
             <h1>Le dernier vol du corbeau</h1>
             <p className="author">Par Maxime Canda</p>
           </div>
-          <div className="buttons">
-            <button onClick={handleBackCoverClick}>4ème de couverture</button>
-            <button onClick={handleCharactersClick}>Personnages</button>
-            <button onClick={handleReadClick}>Lire</button>
+          <div className="book-buttons">
+            <button className="book-button" onClick={handleBackCoverClick}>4ème de couverture</button>
+            <button className="book-button" onClick={handleCharactersClick}>Personnages</button>
+            <button className="book-button" onClick={handleReadClick}>Lire</button>
           </div>
         </div>
       ) : (
@@ -69,10 +69,10 @@ const Book = ({ onReadClick, onCharactersClick }) => {
               <p> 2024 Éditions Example</p>
             </div>
           </div>
-          <div className="buttons">
-            <button onClick={handleBackCoverClick}>Voir la couverture</button>
-            <button onClick={handleCharactersClick}>Personnages</button>
-            <button onClick={handleReadClick}>Lire</button>
+          <div className="book-buttons">
+            <button className="book-button" onClick={handleBackCoverClick}>Voir la couverture</button>
+            <button className="book-button" onClick={handleCharactersClick}>Personnages</button>
+            <button className="book-button" onClick={handleReadClick}>Lire</button>
           </div>
         </div>
       )}
