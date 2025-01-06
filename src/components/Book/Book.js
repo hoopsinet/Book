@@ -1,86 +1,82 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import adelineImage from '../../assets/images/Adeline.jpeg';
-import ryuImage from '../../assets/images/book-covers/Ryu.jpeg';
+import React, { useState } from 'react';
+import './Book.css';
 import coverImage from '../../assets/images/book-covers/couverture1.jpg';
 import backImage from '../../assets/images/Dos.png';
-import './Book.css';
 
-const characterDescriptions = {
-  ryu: 'Un lycéen solitaire et désabusé qui se remet en question sur son avenir.',
-  adeline: 'Une élève studieuse et mystérieuse qui cache plus qu\'elle ne le montre.'
-};
+const Book = ({ onReadClick, onCharactersClick }) => {
+  const [showBackCover, setShowBackCover] = useState(false);
 
-// Fonction pour parser le contenu du markdown
-const parseContent = (markdown) => {
-  const lines = markdown.split('\n');
-  let mainTitle = '';
-  let content = [];
-  let currentText = '';
-
-  lines.forEach(line => {
-    const trimmedLine = line.trim();
-    
-    if (trimmedLine.startsWith('# ')) {
-      mainTitle = trimmedLine.replace('# ', '').toUpperCase();
-    }
-    else if (trimmedLine.startsWith('## ')) {
-      if (currentText.trim()) {
-        content.push({ type: 'text', content: currentText.trim() });
-        currentText = '';
-      }
-      content.push({ type: 'chapter', content: trimmedLine.replace('## ', '') });
-    }
-    else if (trimmedLine === '') {
-      if (currentText.trim()) {
-        content.push({ type: 'text', content: currentText.trim() });
-        currentText = '';
-      }
-    }
-    else {
-      currentText += (currentText ? ' ' : '') + trimmedLine;
-    }
-  });
-
-  if (currentText.trim()) {
-    content.push({ type: 'text', content: currentText.trim() });
-  }
-
-  return {
-    mainTitle,
-    content
+  const handleBackCoverClick = () => {
+    setShowBackCover(!showBackCover);
   };
-};
 
-const romanContent = `
-Le réveil sonna, à 6h. Comme tous les matins.
+  const handleReadClick = () => {
+    if (onReadClick) {
+      onReadClick();
+    }
+  };
 
-Ryu ouvrit péniblement les yeux. Le plafond grisâtre de sa chambre était la première chose qu'il voyait, un plafond qu'il connaissait par cœur. Chaque fissure, chaque tache, il les avait étudiées, comme si elles contenaient des secrets qu'il n'arriverait jamais à percer. Pourtant, ces marques immobiles étaient les seules choses qui ne semblaient jamais changer dans sa vie.
-
-Sans un mot, il se tourna sur le côté et laissa échapper un soupir. Il ne voulait pas se lever. Mais il n'avait pas le choix. Ses pieds touchèrent le sol froid de sa petite chambre alors qu'il se levait, son corps agissant par automatisme. La salle de bain l'attendait, toujours la même routine, toujours les mêmes gestes.
-
-Face au miroir, son propre reflet le dévisagea. Un visage sans éclat, marqué par la fatigue et le désintérêt. Ses cheveux châtains étaient ébouriffés, et de sombres cernes se creusaient sous ses yeux. Il passa un gant humide sur son visage, sans conviction, sentant à peine l'eau sur sa peau.
-
-Un coup de peigne dans ses cheveux, rien de plus. Chaque geste était répété avec la même indifférence que la veille. Son corps savait quoi faire, mais son esprit était ailleurs, déjà distant, perdu dans des pensées qu'il n'arrivait pas à saisir.
-
-Une veste à capuche grisâtre, une écharpe noire, ses baskets un peu usées, et surtout, ses écouteurs. Une fois qu'il les enfila, la musique envahit ses oreilles, étouffant les bruits du monde extérieur. C'était tout ce qu'il voulait : ne plus entendre. Ne plus sentir. Ne plus penser.
-
-Il attrapa son sac, passa la porte de sa chambre et quitta la maison. À cet instant, il n'était plus qu'une ombre qui se déplaçait dans la ville, invisible aux yeux de tous.`;
-
-const content = parseContent(romanContent);
-
-const Book = () => {
-  const navigate = useNavigate();
-
-  const handleCoverClick = () => {
-    navigate('/characters');
+  const handleCharactersClick = () => {
+    if (onCharactersClick) {
+      onCharactersClick();
+    }
   };
 
   return (
-    <div className="book-container" onClick={handleCoverClick}>
-      <div className="book">
-        <img src={coverImage} alt="Couverture" className="cover-image" />
+    <div className="book-container">
+      <div className={`book ${showBackCover ? 'show-back' : ''}`}>
+        {!showBackCover ? (
+          <div className="front-cover">
+            <img 
+              src={coverImage}
+              alt="Couverture"
+              className="cover-image"
+            />
+            <div className="cover-content">
+              <h1>Le dernier vol du corbeau</h1>
+              <p className="author">Par Maxime Canda</p>
+            </div>
+            <div className="buttons">
+              <button onClick={handleBackCoverClick}>4ème de couverture</button>
+              <button onClick={handleCharactersClick}>Personnages</button>
+              <button onClick={handleReadClick}>Lire</button>
+            </div>
+          </div>
+        ) : (
+          <div className="back-cover">
+            <img 
+              src={backImage}
+              alt="Illustration de couverture"
+              className="back-image"
+            />
+            <div className="back-content">
+              <h2>Synopsis</h2>
+              <div className="synopsis">
+                <p>
+                  Dans un monde où la conformité règne en maître, Ryu, un adolescent désabusé, se retrouva piégé dans une routine quotidienne morne et dépourvue de sens. Au début de l'histoire, il se lèva chaque matin dans une chambre qui témoigna de sa lassitude, se préparant à affronter une vie scolaire où il se sent invisible et rejeté. À travers ses yeux, nous découvrons un lycée qui ressemble plus à une prison qu'à un lieu d'apprentissage, où les rêves sont étouffés par le mépris des enseignants et les ricanements des camarades.
+                </p>
+                <p>
+                  Cependant, un événement inattendu vient bouleverser cette monotonie : lorsque son camarade Max est humilié par leur professeur, Ryu ressent une impulsion irrépressible de défendre celui qui, comme lui, est marginalisé. Ce geste de bravoure, bien que désintéressé, entraîne des conséquences dramatiques. La confrontation avec M. Lefèvre, un enseignant autoritaire, le conduit directement dans le bureau du directeur, où il se voit imposer une sanction pour avoir osé s'opposer à l'autorité.
+                </p>
+                <p>
+                  Le conseil de discipline est devenu le théâtre d'un affrontement non seulement entre Ryu et les figures d'autorité, mais aussi entre son désir de justice et la peur de la répression. Ses parents, tout en étant perplexes face à la décision du directeur, réalisent que leur fils se bat contre un système qui refuse de le comprendre. Ryu se sent trahi par le lieu qui devrait être un sanctuaire d'apprentissage et d'égalité, et il commence à envisager ce que signifie vraiment l'égalité et la solidarité.
+                </p>
+                <p>
+                  Ce premier chapitre de son voyage pose les bases d'une quête de vérité et de justice, où Ryu devra non seulement lutter contre l'injustice, mais aussi affronter ses propres démons intérieurs pour définir qui il est réellement et quel rôle il souhaite jouer dans un monde qui tend à le réduire au silence.
+                </p>
+              </div>
+              <div className="publisher-info">
+                <p className="isbn">ISBN : 978-2-XXXXX-XXX-X</p>
+                <p> 2024 Éditions Example</p>
+              </div>
+            </div>
+            <div className="buttons">
+              <button onClick={handleBackCoverClick}>Voir la couverture</button>
+              <button onClick={handleCharactersClick}>Personnages</button>
+              <button onClick={handleReadClick}>Lire</button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
