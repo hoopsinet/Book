@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import adelineImage from '../../assets/images/Adeline.jpeg';
-import ryuImage from '../../assets/images/book-covers/Ryu.jpeg';
+import ryuImage from '../../assets/images/book-covers/ryu.jpeg';
 import './Characters.css';
 
 const characterDescriptions = {

@@ -7,13 +7,13 @@ const BackCover = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="back-cover-container">
-      <button className="back-button" onClick={() => navigate('/characters')}>
-        Retour aux personnages
-      </button>
+    <div className="quatrieme-couverture">
       <div className="back-cover-content">
         <img src={backCoverImage} alt="4ème de couverture" className="back-cover-image" />
       </div>
+      <button className="back-button" onClick={() => navigate('/')}>
+        Page de couverture
+      </button>
     </div>
   );
 };

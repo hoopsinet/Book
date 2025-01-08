@@ -6,6 +6,7 @@ import ryuImage from '../../assets/images/book-covers/Ryu.jpeg';
 import coverImage from '../../assets/images/book-covers/couverture1.jpg';
 import backImage from '../../assets/images/Dos.png';
 import './Book.css';
+import romanContent from '../../content/roman.md';
 
 const characterDescriptions = {
   ryu: 'Un lycéen solitaire et désabusé qui se remet en question sur son avenir.',
@@ -15,72 +16,115 @@ const characterDescriptions = {
 // Fonction pour parser le contenu du markdown
 const parseContent = (markdown) => {
   const lines = markdown.split('\n');
-  let mainTitle = '';
-  let content = [];
+  let chapters = [];
+  let currentChapter = null;
   let currentText = '';
 
   lines.forEach(line => {
     const trimmedLine = line.trim();
     
-    if (trimmedLine.startsWith('# ')) {
-      mainTitle = trimmedLine.replace('# ', '').toUpperCase();
-    }
-    else if (trimmedLine.startsWith('## ')) {
-      if (currentText.trim()) {
-        content.push({ type: 'text', content: currentText.trim() });
-        currentText = '';
+    if (trimmedLine.startsWith('## ')) {
+      // Si on a déjà un chapitre en cours, on le sauvegarde
+      if (currentChapter) {
+        chapters.push({
+          title: currentChapter,
+          content: currentText.trim()
+        });
       }
-      content.push({ type: 'chapter', content: trimmedLine.replace('## ', '') });
-    }
-    else if (trimmedLine === '') {
-      if (currentText.trim()) {
-        content.push({ type: 'text', content: currentText.trim() });
-        currentText = '';
+      // On commence un nouveau chapitre
+      currentChapter = trimmedLine.replace('## ', '');
+      currentText = '';
+    } else {
+      // On ajoute le texte au chapitre en cours
+      if (currentChapter && trimmedLine) {
+        currentText += trimmedLine + '\n\n';
       }
-    }
-    else {
-      currentText += (currentText ? ' ' : '') + trimmedLine;
     }
   });
 
-  if (currentText.trim()) {
-    content.push({ type: 'text', content: currentText.trim() });
+  // N'oublions pas d'ajouter le dernier chapitre
+  if (currentChapter) {
+    chapters.push({
+      title: currentChapter,
+      content: currentText.trim()
+    });
   }
 
-  return {
-    mainTitle,
-    content
-  };
+  return chapters;
 };
 
-const romanContent = `
-Le réveil sonna, à 6h. Comme tous les matins.
-
-Ryu ouvrit péniblement les yeux. Le plafond grisâtre de sa chambre était la première chose qu'il voyait, un plafond qu'il connaissait par cœur. Chaque fissure, chaque tache, il les avait étudiées, comme si elles contenaient des secrets qu'il n'arriverait jamais à percer. Pourtant, ces marques immobiles étaient les seules choses qui ne semblaient jamais changer dans sa vie.
-
-Sans un mot, il se tourna sur le côté et laissa échapper un soupir. Il ne voulait pas se lever. Mais il n'avait pas le choix. Ses pieds touchèrent le sol froid de sa petite chambre alors qu'il se levait, son corps agissant par automatisme. La salle de bain l'attendait, toujours la même routine, toujours les mêmes gestes.
-
-Face au miroir, son propre reflet le dévisagea. Un visage sans éclat, marqué par la fatigue et le désintérêt. Ses cheveux châtains étaient ébouriffés, et de sombres cernes se creusaient sous ses yeux. Il passa un gant humide sur son visage, sans conviction, sentant à peine l'eau sur sa peau.
-
-Un coup de peigne dans ses cheveux, rien de plus. Chaque geste était répété avec la même indifférence que la veille. Son corps savait quoi faire, mais son esprit était ailleurs, déjà distant, perdu dans des pensées qu'il n'arrivait pas à saisir.
-
-Une veste à capuche grisâtre, une écharpe noire, ses baskets un peu usées, et surtout, ses écouteurs. Une fois qu'il les enfila, la musique envahit ses oreilles, étouffant les bruits du monde extérieur. C'était tout ce qu'il voulait : ne plus entendre. Ne plus sentir. Ne plus penser.
-
-Il attrapa son sac, passa la porte de sa chambre et quitta la maison. À cet instant, il n'était plus qu'une ombre qui se déplaçait dans la ville, invisible aux yeux de tous.`;
-
-const content = parseContent(romanContent);
-
 const Book = () => {
+  const [chapters, setChapters] = useState([]);
+  const [currentChapterIndex, setCurrentChapterIndex] = useState(0);
   const navigate = useNavigate();
 
-  const handleCoverClick = () => {
-    navigate('/characters');
+  useEffect(() => {
+    // Charger le contenu du fichier markdown
+    fetch(romanContent)
+      .then(response => response.text())
+      .then(text => {
+        const parsedChapters = parseContent(text);
+        setChapters(parsedChapters);
+      })
+      .catch(error => {
+        console.error('Erreur lors du chargement du contenu:', error);
+        setChapters([{
+          title: 'Erreur de chargement',
+          content: 'Impossible de charger le contenu du livre.'
+        }]);
+      });
+  }, []);
+
+  const handleNextChapter = () => {
+    if (currentChapterIndex < chapters.length - 1) {
+      setCurrentChapterIndex(prev => prev + 1);
+    }
   };
 
+  const handlePreviousChapter = () => {
+    if (currentChapterIndex > 0) {
+      setCurrentChapterIndex(prev => prev - 1);
+    }
+  };
+
+  const currentChapter = chapters[currentChapterIndex];
+
   return (
-    <div className="book-container" onClick={handleCoverClick}>
+    <div className="book-container">
       <div className="book">
-        <img src={coverImage} alt="Couverture" className="cover-image" />
+        {currentChapter ? (
+          <div className="chapter">
+            {currentChapterIndex === chapters.length - 1 ? (
+              // Dernière page avec la même mise en page que la couverture
+              <img src={backImage} alt="Dernière page" className="cover-image" />
+            ) : (
+              <>
+                <h2>{currentChapter.title}</h2>
+                <div className="chapter-content">
+                  {currentChapter.content.split('\n\n').map((paragraph, index) => (
+                    <p key={index}>{paragraph}</p>
+                  ))}
+                </div>
+                <div className="navigation-buttons">
+                  <button 
+                    onClick={handlePreviousChapter}
+                    disabled={currentChapterIndex === 0}
+                  >
+                    <FaChevronLeft /> Chapitre précédent
+                  </button>
+                  <button 
+                    onClick={handleNextChapter}
+                    disabled={currentChapterIndex === chapters.length - 1}
+                  >
+                    Chapitre suivant <FaChevronRight />
+                  </button>
+                </div>
+              </>
+            )}
+          </div>
+        ) : (
+          <img src={coverImage} alt="Couverture" className="cover-image" onClick={() => setCurrentChapterIndex(0)} />
+        )}
       </div>
     </div>
   );

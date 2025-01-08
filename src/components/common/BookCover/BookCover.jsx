@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import coverImage from '../../../assets/images/cover';
+import coverImage from '../../../assets/images/book-covers/couverture1.jpg';
 import './BookCover.css';
 
 const BookCover = ({ className }) => {
@@ -32,7 +32,7 @@ const BookCover = ({ className }) => {
   };
 
   return (
-    <div className="book-container">
+    <div className="front-cover-container">
       <div className={`book ${isOpen ? 'book-open' : ''}`}>
         <div className="page cover">
           <img 
