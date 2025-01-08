@@ -1863,18 +1863,12 @@ Elle posa sa valise près de lui et lui lança un regard pétillant.
 Ryu, amusé, hocha la tête. Il avait également travaillé avec ses parents, à la boutique, pour mettre un peu d’argent de côté. Depuis longtemps, il s’était promis qu’un jour, il prendrait un train au hasard, juste pour découvrir ce que le monde avait à offrir. Aujourd’hui, ce jour était enfin arrivé.
 — T’étais sérieuse alors ? Tu comptes vraiment prendre ça ? demanda-t-il en désignant la valise massive.
 Adeline leva les yeux au ciel.
-Les familles, rassemblées près des stands de nourriture ou des boutiques décorées, partageaient des instants de complicité qui réchauffaient le cœur de Ryu. Ces moments lui rappelaient qu'en dehors des tensions du lycée, il existait un monde où la légèreté et la joie de vivre prenaient le dessus. Il s'arrêta devant un vendeur de marrons chauds, prit une portion, et, savourant chaque bouchée, il se perdit dans la douce ambiance des lumières festives.
-
 — Tsss, et toi tu comptes vraiment poser cette question ? Allez, Ryu, choisis un train ! On n’a pas toute la journée.
-Quelques jours plus tard, alors qu'il errait encore dans les ruelles illuminées, il aperçut au loin Adeline, entourée de plusieurs camarades. Son cœur s'emballa un instant. Il hésitait à s'approcher. Adeline avait toujours été gentille avec lui, mais une partie de lui doutait encore de ses intentions. Observant de loin, il se demandait s'il devrait les rejoindre ou continuer son chemin seul.
-
 Elle attrapa son bras avec énergie, tirant légèrement pour l’inciter à bouger.
 Ryu la suivit, un sourire en coin. Pendant une seconde, il leva les yeux vers l’horizon, se promettant silencieusement de vivre pleinement. Il se retourna une dernière fois vers le quai, prêt à laisser derrière lui les douleurs et les regrets.
 Avec Adeline à ses côtés, il monta dans le train. La porte se referma doucement derrière eux, marquant le début d’une nouvelle aventure.
-Ses réflexions furent interrompues par la voix enjouée d'Adeline, qui l'avait repéré. « Tiens, Ryu ! » lança-t-elle, un sourire éclatant sur les lèvres. « Qu'est-ce que tu fais tout seul ici ? Viens nous rejoindre ! »
 
 ## conclusion de l'auteur :
-Ryu sentit son cœur s'emballer un instant, partagé entre l'envie de se rapprocher et la peur d'être déçu. Pourtant, son envie de s'intégrer et de profiter de l'instant prit le dessus. Il inspira profondément, ajusta son écharpe noire autour de son cou, et fit quelques pas vers eux.
 
 "Peu importe les blessures du PASSE, qu'elles soient de nos rêves ou de nos amours perdues, le PRESENT, lui, nous invite à guérir nos plaies et à nous reconstruire, afin de retrouver la force de croire en notre pouvoir de façonner un FUTUR à la hauteur de nos ambitions, où chaque espoir devient une réalité à bâtir."
 « Hé, Ryu ! Viens, on va prendre des marrons chauds ! » lança un camarade blond avec un grand sourire.
