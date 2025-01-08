@@ -51,8 +51,16 @@ export function parseBookContent(markdownContent) {
   const pages = [];
   let currentPage = [];
   let currentSection = '';
-  let isFirstPage = true;
   let isInPrologue = false;
+  let pageCount = 0;
+  
+  const addPage = () => {
+    if (currentPage.length > 0) {
+      pages.push([...currentPage]);
+      pageCount++;
+      currentPage = [];
+    }
+  };
   
   lines.forEach(line => {
     const trimmedLine = line.trim();
@@ -63,18 +71,13 @@ export function parseBookContent(markdownContent) {
         type: 'title',
         content: trimmedLine.replace('# ', '').trim()
       });
-      pages.push([...currentPage]);
-      currentPage = [];
-      isFirstPage = false;
+      addPage();
       return;
     }
     
     // Gestion du prologue et autres sous-titres
     if (trimmedLine.startsWith('## ')) {
-      if (currentPage.length > 0) {
-        pages.push([...currentPage]);
-        currentPage = [];
-      }
+      addPage();
       
       currentPage.push({
         type: 'subtitle',
@@ -100,12 +103,11 @@ export function parseBookContent(markdownContent) {
           content: currentSection
         });
       } else {
-        // Pour les autres sections, on divise en pages selon la longueur
+        // Diviser le texte en paragraphes plus courts
         const paragraphs = splitLongText(currentSection);
         paragraphs.forEach(paragraph => {
-          if (currentPage.length >= 2 && !isInPrologue) {
-            pages.push([...currentPage]);
-            currentPage = [];
+          if (currentPage.length >= 2) {
+            addPage();
           }
           currentPage.push({
             type: 'text',
@@ -116,33 +118,23 @@ export function parseBookContent(markdownContent) {
       currentSection = '';
     }
   });
-
-  // Traiter la dernière section si elle existe
+  
+  // Ajouter la dernière page si nécessaire
   if (currentSection) {
-    if (isInPrologue) {
-      currentPage.push({
-        type: 'text',
-        content: currentSection
-      });
-    } else {
-      const paragraphs = splitLongText(currentSection);
-      paragraphs.forEach(paragraph => {
-        if (currentPage.length >= 2 && !isInPrologue) {
-          pages.push([...currentPage]);
-          currentPage = [];
-        }
-        currentPage.push({
-          type: 'text',
-          content: paragraph
-        });
-      });
-    }
+    currentPage.push({
+      type: 'text',
+      content: currentSection
+    });
   }
-
-  // Ajouter la dernière page si elle n'est pas vide
-  if (currentPage.length > 0) {
-    pages.push([...currentPage]);
+  addPage();
+  
+  // Ajouter une page vide après la page 37
+  if (pages.length >= 37) {
+    pages.splice(37, 0, [{
+      type: 'empty',
+      content: ''
+    }]);
   }
-
+  
   return pages;
 }

@@ -109,23 +109,23 @@ const Chapter = () => {
           </div>
         </div>
       </div>
-      <div className="navigation">
+      <div className="navigation-buttons">
         <button 
-          className={`nav-button ${currentSpread === 0 ? 'disabled' : ''}`}
+          className="nav-button prev" 
           onClick={handlePrevSpread}
           disabled={currentSpread === 0}
         >
-          <img src={arrowLeft} alt="Pages précédentes" />
+          <img src={arrowLeft} alt="Previous" />
         </button>
-        <span className="page-number">
+        <div className="page-numbers">
           Pages {leftPageIndex + 1}-{Math.min(rightPageIndex + 1, pages.length)} sur {pages.length}
-        </span>
+        </div>
         <button 
-          className={`nav-button ${currentSpread >= Math.ceil(pages.length / 2) - 1 ? 'disabled' : ''}`}
+          className="nav-button next" 
           onClick={handleNextSpread}
           disabled={currentSpread >= Math.ceil(pages.length / 2) - 1}
         >
-          <img src={arrowRight} alt="Pages suivantes" />
+          <img src={arrowRight} alt="Next" />
         </button>
       </div>
     </div>
