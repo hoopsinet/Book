@@ -248,6 +248,7 @@ Après avoir savouré l'air vivifiant des vacances, entre les nouvelles amitiés
 C'était sa manière d'amorcer la nouvelle année, une résolution discrète mais gravée au plus profond de lui.
 
  ## Chapitre 6 :
+
 Ryu se réveilla à 6 h, comme à son habitude, mais pour la première fois depuis longtemps, une légèreté l'envahit et il prit plaisir à se préparer. L'image que le miroir projetait de lui lui plaisait. Il prit le temps de se coiffer et de choisir minutieusement ses vêtements, profitant également de sortir ses nouvelles baskets reçues pour Noël. Une nouvelle année, de nouveaux vêtements, comme s'il faisait peau neuve.
 De plus, Ryu n'enfila qu'un seul écouteur et réduisit un peu le son de la musique avant de sortir de chez lui. Une fois dehors, il prit le temps d'observer ce qui l'entourait par exemple comme la La neige qui recouvrait tout, étouffant les bruits du matin dans un silence apaisant. Les branches des arbres, alourdies de ce manteau blanc, formaient comme des arches de cristal au-dessus du sentier.
 L’air était vif, mordant ses joues et colorant ses lèvres d’un rose léger. À chaque expiration, un nuage de vapeur s’élevait devant lui, comme une preuve tangible de sa présence dans cet instant.
@@ -291,7 +292,9 @@ Ryu se perdait dans ces réflexions, ses doutes s'accumulant comme les feuilles 
 Après avoir goûté à cette victoire éphémère, Ryu réalisa qu'il devenait ce qu'il détestait le plus. Même s'il ne cherchait pas à être le chouchou des profs, il constatait qu'il était en train de devenir, petit à petit, ce qu'il combattait le plus ardemment : cette rivalité pour être le meilleur.
 Il attendit que la cloche retentisse, puis, sans un mot, il attrapa ses affaires et se dépêcha de sortir. Ses camarades, surpris de le voir partir si vite, échangèrent des regards perplexes. Jamais, même depuis qu'il était plongé dans les devoirs, il n'était sorti ainsi. Mais c'était crucial pour lui ; il devait prendre l'air. Une balade, même courte, lui ferait du bien.
 Déambulant dans les rues, il écoutait le bruit des passants, sentait l'air frais sur son visage, tout cela l'aiderait, pensait-il, à y voir plus clair. En s'éloignant de l'école, ll s'assit sur le banc de la gare, près du quai d'embarquement. Il regardait les trains défiler, se demandant parfois où ils le mèneraient s'il montait à bord. L'envie de s'évader le tenait, à la vue de couples se tenant la main, de groupes d'amis riant en attendant le prochain train. Tout à coup, une odeur familière de parfum lui parvint, délicate et envoûtante. Il tourna la tête juste à temps pour apercevoir une silhouette aux cheveux longs disparaître derrière les portes d'un train qui se fermait. Ce moment fugace intensifia son sentiment de décalage, comme s'il avait construit un mur autour de lui, un mur qui l’empêchait de profiter de ces instants simples. Brusquement, il se leva, la frustration montant en lui. Il avait besoin de hurler, de crier tout ce qu'il avait sur le cœur. Mais il savait que cela ne servirait à rien. Au lieu de cela, il se mit à marcher, sa respiration se faisant plus profonde à chaque pas, comme s'il tentait d'expulser toutes ses pensées négatives.
+
 ## Chapitre 7 :
+
 Sur le chemin du retour, Ryu ralentit le pas. Alors qu'il contourne le bâtiment du lycée, un détail attire son attention : M. Lefèvre, assis à la terrasse d’un café voisin, bière à la main et cigarette roulée entre les doigts. Les jambes croisées, il observe le monde extérieur d’un air pensif, presque détaché.
 Le visage du professeur, qui commençait à prendre une teinte bronzée, détonne avec l'image austère qu'il présente en classe. Ryu se fige un instant, partagé entre l’envie de passer son chemin et celle de s’arrêter. La scène est presque cocasse, incongrue. M. Lefèvre, le professeur strict et exigeant, paraît si désinvolte, mais Ryu ne peut s’empêcher de ressentir une sourde indignation face à cette image.
 Les souvenirs des remarques acérées et des piques lancées en classe affluent dans son esprit. À cet instant, une question le titille : comment peut-il être si insouciant alors qu’il exige tant de ses élèves ? Ce professeur, qui ne cesse de faire peser la pression sur eux, semble fuir la même réalité qu'il leur impose.
@@ -451,7 +454,9 @@ Adeline, légèrement en retrait, observait le dos de Ryu, attentive à chacun d
 Elle n'imaginait pas à quel point il pvouait être tiraillé, combien son silence caché des blessures presque similaires. Dans la solitude de cette pensée, elle se sentit un peu moins seule.
 Quand ils arrivèrent enfin au portail du gymnase, le tonnerre grondait, et les gouttes de pluie devenaient des torrents. Ryu se tourna vers elle, un sourire en coin. « On devrait se depecher, je te raccompagne avant qu’on finisse trempés. »
 Adeline hocha la tête, un peu absente, puis se mit à marcher à ses côtés, laissant ses pensées s’égarer, emportées par les mots de Ryu et le martèlement apaisant de la pluie.
+
 ## Chapitre 8 :
+
 En rentrant chez elle, Adeline referma doucement la porte, laissant derrière elle le bruit de la pluie battante. Son appartement était modeste, mais elle y avait apporté des touches personnelles qui le rendaient vivant et accueillant. Dans le petit salon, un canapé gris, légèrement usé, faisait face à une télé posée sur un meuble bas. Juste à côté, la porte-fenêtre donnait sur une petite terrasse où de nombreux pots de fleurs, verdoyants malgré la saison, apportaient une touche de nature. C’était son coin de sérénité, un espace qu’elle entretenait avec soin pour y trouver un peu de calme.
 Le salon s’ouvrait sur une petite cuisine, séparée par un bar. Sur le comptoir, un panier de fruits trônait à côté de quelques livres de recettes qu'elle utilisait parfois le week-end. La cuisine, simple mais ordonnée, laissait deviner une routine organisée, et pourtant, il y avait toujours quelques objets posés ça et là, témoins d’un quotidien un peu pressé.
 Dans sa chambre, la personnalité d’Adeline s’exprimait davantage. Au-dessus de son bureau, la photo de classe de cette année était affichée, et les visages de ses camarades lui rappelaient chaque jour des souvenirs. Des dessins de chevaux, à moitié dissimulés par un livre de cours, dépassaient des bords du bureau, colorés et détaillés. Ils révélaient sa passion de toujours et sa précision, car chaque détail semblait avoir été dessiné avec une grande attention.
@@ -495,7 +500,9 @@ Elle avait rêvassé alors que Ryu, lui, était en danger. Un éclair de lucidit
 Les cours reprirent lentement, mais pour Adeline, tout devenait flou. Elle était là, mais son esprit était ailleurs, rongé par une angoisse sourde. Elle devait faire quelque chose, mais que pouvait-elle faire ?
 Cette nouvelle chamboulait non seulement son quotidien, mais aussi sa perception de ce qu'elle ressentait pour Ryu. Ce lien, qu'elle avait commencé à apprivoiser, prenait une autre dimension. Dans cette épreuve, elle se rendait compte qu’elle tenait à lui bien plus qu’elle ne l’avait imaginé.
 En proie à une vague de faiblesse après l'annonce brutale, Adeline se dirigea lentement vers l'infirmerie. Chaque pas lui semblait plus lourd que le précédent, comme si la gravité de la nouvelle pesait sur son cœur. Lorsqu'elle entra, l'infirmière, d'un regard compréhensif, l'autorisa à rentrer chez elle pour se reposer. Adeline se hâte de rassembler ses affaires, son esprit encore embrumé par l'angoisse.
+
 ## Chapitre 9 :
+
 Sur le chemin du retour, les souvenirs avec Ryu défilèrent dans son esprit comme des images floues et lumineuses. Elle se revit, lui adressant un sourire timide lors de leur première rencontre, leur complicité naissante, jusqu'à leur journée d’hier, où il avait enfin partagé un morceau de son monde avec elle. La perspective de tout cela se volatiliser la frappa de plein fouet, et les larmes commencèrent à couler, silencieuses mais incessantes. La peur de perdre une amitié si précieuse la dévorait de l'intérieur.
 Les mots de Ryu résonnèrent en elle avec une force nouvelle, ceux qu'il avait prononcés lors de leur échange sur la brume qui enveloppait la ville : « J’aime voir la brume envahir la ville, s’effaçant peu à peu. Cela me rappelle que tout a un début et une fin. Comme la neige qui tombe sur le sol : soit elle tient, soit elle fond, tout comme les liens que nous tissons avec les autres. Puis, il y a les arbres qui bourgeonnent, se couvrant de feuilles et de fleurs, pour finalement se fâner, comme si l’on leur volait leur vie. »
 Aujourd'hui, chaque mot prenait un sens profond. Adeline comprenait désormais ce qu'il voulait dire : tout ne tient qu'à un fil. Chaque moment partagé, chaque rire échangé, étaient à chérir comme s'ils étaient les derniers. Alors qu'elle avançait, les larmes aux yeux, elle savait qu'elle devait faire tout ce qu'elle pouvait pour soutenir Ryu, pour elle-même et pour l'amitié qu'ils avaient construite.
@@ -576,7 +583,9 @@ Arrivée au côté de Seb, l'oiseau s'envola à nouveau, mais c'est à ce moment
 — « Adeline ? Oui, c'est la maman de Ryu. Désolée de te déranger, mais je voulais te dire que tu peux venir le voir si tu en as envie. Nous y serons toute l'après-midi. »
 Ravie, elle répondit d'un grand « oui ! » et ajouta qu'elle arriverait au plus vite, si cela ne les dérangeait pas.
 Après quelques remerciements, elle raccrocha, puis elle attrapa la main de Seb, excitée par la nouvelle, et lui annonça qu'elle devait s'en aller.
+
 ## Chapitre 10 :
+
 Elle se précipita chez elle pour se changer et se débarbouiller. Adeline profita de l'occasion pour se remaquiller les yeux, ne laissant rien transparaître de sa fatigue. Elle troqua son jogging contre un pantalon, désireuse de faire bonne impression.
 En consultant son portable, elle vérifia les horaires de bus pour savoir si un passerait bientôt pour l'emmener à l'hôpital. Cela lui éviterait une longue marche ; bien que ce ne soit pas un grand village, elle préférait arriver en forme. D'ailleurs, en faisant défiler les horaires, elle remarqua qu'un bus devait passer dans moins d'une minute en bas de chez elle. Elle se dépêcha de descendre, fermant rapidement son appartement et dévalant les escaliers à toute vitesse. « Un peu raté, de ne pas se fatiguer, » se dit-elle en riant.
 En arrivant en bas, elle aperçut le bus et se précipita pour monter à bord. La voilà enfin prête à revoir son ami ; quelques minutes les séparaient désormais.
@@ -621,7 +630,9 @@ Adeline retint son souffle, indécise entre l’envie de répondre et la peur de
 Il ouvrit lentement les yeux, tournant faiblement la tête dans sa direction. Son regard semblait encore perdu, flottant entre rêve et réalité. Puis, d'une voix encore fragile, il murmura :
 « R... Rose… tu es enfin là. »
 Le cœur d'Adeline se serra. Pourquoi l’appelait-il Rose ? Pouvait-il la confondre avec quelqu'un d'autre, ou bien voyait-il en elle une figure du passé, un souvenir flou.
+
 ## Chapitre 11 :
+
 Le réveil était difficile. Une douleur sourde battait à l’arrière de sa tête, et ses épaules semblaient si lourdes qu’il lui était impossible de les bouger. Ses mains, légèrement égratignées, le piquaient. Il entendit une voix familière quelque part dans la chambre, mais, incapable d’en distinguer l'origine ou de savoir de qui il s’agissait, il se laissa de nouveau happer par la fatigue, sombrant dans un sommeil profond.
 Plus tard, l’infirmière entra dans la chambre. Elle vérifia que tout allait bien et lui parla doucement, expliquant ce qu’elle faisait. Elle tira les rideaux, ferma la fenêtre en la laissant légèrement entrouverte pour laisser entrer un peu d’air, réajusta son oreiller, puis sortit en silence.
 Un peu plus tard, Ryu se réveilla à nouveau. Il sentit l’air frais qui effleurait son visage et entendit un croassement au loin. Ce son... quelque chose en lui se réveillait, une sensation de bien-être le traversa, inexplicable mais apaisante. Avant même de comprendre pourquoi, il sombra à nouveau dans le sommeil.
@@ -649,7 +660,9 @@ Adeline, déstabilisée par la mention de ce nom, hésita un instant avant de r�
 Il sembla lutter pour comprendre, ses yeux cherchant un repère dans le brouillard de ses souvenirs. « Pourquoi... pourquoi es-tu là, Rose ? » demanda-t-il faiblement.
 Adeline, perplexe face à ce prénom, ressentit une vague d'inquiétude. Qui est-elle ? pensa-t-elle. Mais elle garda cela pour elle. « J'avais besoin de te voir, Ryu, » murmura-t-elle, espérant que cela suffirait à le rassurer.
 Ryu ferma les yeux un instant, laissant ses émotions l’envahir à nouveau. Il n’arrivait pas à saisir ce qui se passait, mais il se sentait apaisé par sa présence, même s’il était encore si loin de la réalité.
+
 ## Chapitre 12 :
+
 Quelques jours s'étaient écoulés, et Ryu commençait à se familiariser avec l'environnement de l'hôpital. Après la visite d'Adeline, il avait entamé une rééducation pour ses épaules, suivant les conseils de l'infirmière Emma. Chaque jour, il luttait contre la douleur, mais il était déterminé à retrouver la mobilité qu'il avait perdue. Cette fois-ci, il ne se laisserait pas abattre ; l'idée même de perdre la chance de pouvoir un jour refaire du sport le faisait frémir.
 Sa mère venait régulièrement lui rendre visite. Un jour, alors qu'elle s'entretenait avec l'infirmière, elle exprima son inquiétude au sujet du prénom que Ryu avait mentionné. « Il a dit 'Rose' en parlant à son amie, » murmura-t-elle, le regard inquiet. « Est-ce que cela signifie qu'il ne se souvient pas d'elle ? »
 L'infirmière hocha la tête avec compréhension. « C'est tout à fait normal après un choc. Les amnésies peuvent survenir dans ces cas-là. Ryu pourrait confondre des souvenirs ou des personnes. C'est temporaire. Ce qui est important, c'est de ne pas le brusquer et de lui rappeler doucement ce qu'il a oublié. » Elle ajouta avec un sourire réconfortant : « Avec le temps, sa mémoire reviendra naturellement. »
@@ -688,7 +701,9 @@ Il tomba sur une peluche. Il arriva à se souvenir qu’il l’avait eue lors d�
 Puis, il tomba sur une photo de lui, quelques années auparavant. On y voyait des arbres qui l’entouraient, un grand soleil, et deux corbeaux à l’arrière-plan.
 Il se mit à pleurer, sans trop savoir pourquoi. Ses larmes tombèrent sur la photo. On pouvait le voir prendre quelqu’un dans ses bras.
 Il garda la photo près de lui, s’allongeant sur son lit, ne la quittant pas d’un pouce.
+
 ## Chapitre 13 :
+
 Ryu se réveilla doucement, emporté par une brise matinale qui entra par la fenêtre ouverte de sa chambre. En bougeant sous ses couvertures, il se sentit étrangement bien dans son propre lit, bien plus confortable que celui de l'hôpital. Mais une douleur aigue traversa son homoplate jusqu’à ses épaules, une sensation persistante, comme si on lui avait fait porter un sac à dos trop lourd, rempli de pierres. Il n'était pas encore guéri, et il le savait.
 Il essaya de se lever pour faire quelques exercices de rééducation, déterminé à repousser ses limites. À peine commencés, il s'arrêta brusquement. La douleur était trop intense, encore trop récente. Il secoua la tête, frustré. L'infirmière Emma lui avait bien dit que la rééducation serait longue et difficile, que son corps mettrait du temps à retrouver son autonomie, mais il n’arrivait pas à accepter cela.
 Le vide qu’il ressentait en lui n'était pas seulement physique. C'était comme si on lui avait volé du temps, ou pire, une partie de lui-même. Il ferma les yeux un instant, sa main effleurant l’endroit où il avait été blessé.
@@ -744,7 +759,9 @@ Bien qu’il soit heureux de revoir son amie, une joie mêlée d’émotion, une
 Adeline, blessée mais calme, chercha son regard. Elle lui avait pourtant dit, deux fois déjà, qu’elle était celle qu’il cherchait. Mais il était inconsolable, enragé par cette vérité trop amère.
 Sans un mot de plus, il la laissa seule, sous la pluie battante, la regardant une dernière fois avant de s’éloigner. Elle le regarda partir, incapable de prononcer le moindre mot, trop honteuse et épuisée pour tenter de le retenir. Pourtant, elle se répétait que c’était pour son bien, qu’il devait accepter cette vérité à son rythme. Elle releva la tête pour essayer de l’appeler, mais il était déjà trop tard ; il s’était éloigné.
 Ryu monta précipitamment dans la voiture, son cœur battant encore sous le choc de cette révélation. Ses pensées s’embrouillaient, et, foudroyant ses parents du regard, il leur demanda d’une voix tendue de le ramener à la maison. Son regard resta fixé sur la route, fuyant celui d’Adeline, dont la silhouette s’effaçait peu à peu dans la pluie.
+
 ## Chapitre 14 :
+
 Les jours suivants, il s’enferma dans un silence tendu, lançant des regards durs à ses parents à chaque question. Ils savaient. Ils savaient ce que Rose représentait pour lui, et pourtant ils avaient choisi de se taire. La moindre chose – sortir les poubelles, débarrasser la table – déclenchait en lui une colère sourde, impossible à contenir. Il les repoussait, comme pour leur faire comprendre la douleur qu’ils avaient contribué à lui cacher.
 Il repensait au moment où il l’avait prise dans ses bras, où il s’était laissé aller à lui confier ses peines, ses rêves. Il revoyait son sourire lorsqu’il lui faisait des baisers sur la joue, ignorant ce qu’elle savait, tout ce qu’elle gardait pour elle. Un profond malaise s’emparait de lui : avait-il été si aveugle ? Avait-il seulement voulu voir ?
 De son côté, Adeline se sentait de plus en plus fatiguée, mélancolique, et maussade. Assise sur son lit, le dos appuyé contre le mur, les bras autour de ses jambes et le front caché dans ses genoux, elle repassait sans fin les récents événements, cherchant à leur donner un sens. Depuis ce jour-là, elle n’était plus retournée au lycée.
@@ -780,7 +797,9 @@ Adeline, un peu embarrassée, hésita, baissant les yeux avant de répondre d’
 Elle resta vague, ne souhaitant pas en dire plus. La maman de Ryu hocha doucement la tête et posa une main réconfortante sur son épaule.
 — Tu sais, nous avons tous un jardin secret, et je ne veux pas m’immiscer dans le tien. Mais sache que si un jour tu as besoin de te confier, si tu veux parler… ma porte te sera toujours ouverte.
 Adeline rougit légèrement, touchée, et la remercia d’un sourire timide.
+
 ## Chapitre 15 :
+
 Pendant ce temps, Ryu s’était enfermé dans sa chambre, traversant différents états : la colère, la peine, puis la honte. Maintenant, il se souvenait très bien d’Adeline, de tous les moments passés avec elle. Il comprenait que c’était elle qui avait pleuré à son chevet, elle qui l’attendait à la sortie de l’hôpital, elle qu’il serrait si souvent dans ses bras, si attentionnée… Il ne savait plus comment réagir s’il devait la revoir. Il se sentait honteux.
 Puis, peu à peu, les souvenirs de Rose revinrent à lui. Les week-ends passés ensemble, les balades sous le soleil, couchés sous les arbres à regarder le ciel, le vol des corbeaux, tout en la serrant contre lui… Son cœur saignait pour la deuxième fois, pour celle qu’il avait tant aimée. La peine le plongea dans un chagrin sans fin.
 Enfin, la rage bouillonna en lui. Tout cela, tout ce qu’il ressentait, cette colère, cette souffrance, ce sentiment de vide… c’était à cause de son accident. Les images lui revenaient maintenant, par fragments. Il se souvenait de la joie de cette journée passée avec Adeline, rien qu’eux deux. Cela faisait si longtemps qu’il n’avait pas parlé avec autant de liberté, avec autant de sincérité, sans crainte d’être jugé.
@@ -932,7 +951,9 @@ Un bruit léger à l’extérieur le ramena à la réalité. Il posa une main h�
 Ryu pensa à ses parents un instant. Ils lui avaient toujours laissé un peu de liberté ces derniers temps, comme s’ils comprenaient qu’il avait besoin d’espace. Il se convainquit qu’ils ne s’inquiéteraient pas s’il tardait un peu.
 — Bonne nuit, murmura-t-il doucement, presque pour lui-même.
 L’obscurité tombait peu à peu à travers les fenêtres, et pour une fois, il ne se sentit pas pressé de fuir.
+
 ## Chapitre 16 :
+
 Le lendemain matin, Ryu ouvrit doucement les yeux. Une couverture était posée sur lui, et, à ses côtés, Adeline était toujours là, allongée près de lui. Ses yeux étaient ouverts, mais elle ne bougeait pas, comme si elle profitait de cet instant suspendu, où tout semblait simple, paisible. Aucun conflit, aucune question. Juste le silence.
 Ryu, ne voulant pas troubler cet équilibre fragile, resta immobile un moment. Puis, sans vraiment réfléchir, il leva une main et la passa doucement dans les cheveux d’Adeline. Ce geste était presque instinctif, empreint d’une tendresse qu’il ne comprenait pas encore totalement. Cela n’avait rien d’amoureux, pensa-t-il. C’était autre chose, comme une envie de la protéger, de s’assurer qu’elle était bien là, auprès de lui.
 Adeline sentit le geste, mais ne dit rien. Elle ferma les yeux un instant, savourant cet élan discret. Mais son estomac, bien moins délicat, se manifesta bruyamment. Ryu, surpris, laissa échapper un petit rire avant de ramasser un coussin tombé au sol pour le glisser sous sa tête avec précaution.
@@ -1066,7 +1087,9 @@ Tous deux, comme essoufflés par leurs échanges, restèrent un instant figés d
 Adeline, restée dans la pièce, le regarda un moment avant de se lever doucement. Elle prit la rose dans ses mains, la tenant comme un trésor, puis le rejoignit sur le balcon. Là, elle installa la fleur dans un vase vide qu’elle plaça au centre du balcon, à un endroit où elle pourrait toujours la voir sans jamais la perdre de vue.
 Le vent jouait dans ses cheveux tandis qu’elle passait une main pour les remettre en place. Puis, d’un geste hésitant mais résolu, elle attrapa doucement le bras de Ryu.
 — Allons-y ensemble, dit-elle simplement, sa voix portée par une détermination douce mais inébranlable.
+
 ## Chapitre 17 :
+
 Après deux jours passés à se ressourcer, entre balades en ville, shopping, et petits nettoyages sur le balcon d’Adeline, il était temps pour Ryu et elle de retourner au lycée. Les fleurs fanées avaient été remplacées, mettant en valeur la rose bleue, et ils s’étaient offert quelques moments de détente : allongés sur le canapé ou simplement à feuilleter les copies de cours. Mais l’échappatoire touchait bientôt à sa fin.
 Ryu, profitant de la veille pour retourner chez lui récupérer des affaires, avait finalement passé une dernière nuit chez Adeline, comme s’il ne voulait pas encore refermer cette parenthèse. Le matin venu, il portait un jean délavé, usé aux genoux, des baskets noires à rayures orange, et une veste blanche ornée d’un dragon noir aux yeux rouges – un choix validé par Adeline avec un sourire complice lors de leur dernier shopping, son écharpe et sa casquette.
 Quant à Adeline, elle portait un pantalon large gris, rehaussé par une ceinture noire, et un t-shirt noir à boutons bordé de dentelle. Pour compléter sa tenue, elle avait emprunté une veste noire à Ryu, les mains enfouies dans les poches, prétextant vouloir taquiner Ryu, mais surtout pour se sentir bien dans ses vêtements.
@@ -1137,7 +1160,9 @@ Elle releva les yeux, surprise, mais il avait déjà commencé à marcher vers l
 Il tourna la tête vers elle, l’ombre d’un sourire sur les lèvres.
 — Merci à toi aussi… de m’apaiser quand je perds pied.
 Leurs silhouettes s’éloignèrent dans le brouillard, disparaissant peu à peu dans la lumière tamisée de la fin de journée.
+
 ## Chapitre 18 :
+
 Ryu franchit la porte de chez lui, fatigué mais étrangement calme. La journée avait été longue, mais ce n’était pas le lycée qui l’avait usé… C’était Adeline. Il posa son sac dans un coin et s’appuya contre la porte, les yeux fixant le sol, perdu dans ses pensées.
 Elle n’était pas comme d’habitude, pensa-t-il. Ses sourires semblaient un peu forcés, son regard s’échappait souvent, et cette réflexion du prof… Elle l’avait vraiment atteinte. Ce n’était pas son genre. Adeline d’ordinaire, c’était une force tranquille, quelqu’un qui absorbait tout avec une légèreté presque déconcertante. Mais aujourd’hui, c’était différent.
 Ryu passa une main dans ses cheveux, agacé de ne pas comprendre. Il sentait cette responsabilité qui pesait sur lui, ce besoin presque viscéral de la protéger. Mais protéger de quoi ? De qui ? Un soupir lui échappa, et il s’écroula sur son lit, les bras en croix. Les morceaux du puzzle flottaient dans son esprit, mais rien ne s’assemblait.
@@ -1217,7 +1242,9 @@ Adeline se mordilla la lèvre, hésitante, avant de secouer doucement la tête. 
 Elle le fixa un moment, ses joues rosissant légèrement. Ryu n’avait jamais été aussi direct avec elle. Elle hésita à répondre, mais la cloche de reprise retentit, coupant court à leur échange.
 — Plus tard, peut-être, dit-elle en évitant son regard, avant de se diriger vers la salle.
 Ryu serra les dents, frustré, mais la suivit sans un mot. Il se promit de ne pas la lâcher, même si elle se fermait pour le moment.
+
 ## Chapitre 19 :
+
 La première heure de l’après-midi démarra sur une note tendue. Adeline, toujours engourdie, essayait de suivre, mais elle peinait à garder le rythme. À plusieurs reprises, Ryu la vit lâcher son stylo, ses gestes maladroits trahissant son état. Il ramassa ses affaires discrètement, les lui rendant sans un mot, mais son regard parlait pour lui.
 Puis vint le moment où le professeur l’interrogea. Adeline, prise au dépourvu, regarda son cahier comme si elle y cherchait une réponse qui ne venait pas.
 — Adeline ? répéta le professeur avec une pointe d’impatience. Vous avez lu le texte ou pas ?
@@ -1271,7 +1298,9 @@ Elle fuyait son regard et d'un geste rapide, essuya ses larmes pour qu'il ne rem
 Lorsqu’ils arrivèrent devant chez elle, Ryu s'étira comme pour essayer de détendre l'atmosphère, lui souhaitant une bonne nuit.
 — Repose-toi, d’accord ? dit-il avec une tendresse inhabituelle. Je veux retrouver la vraie Adeline demain, celle qui me casse les pieds avec ses idées farfelues.
 Adeline esquissa un sombre sourire, hochant la tête, en montant ses escalier de l'appartement, elle fait demie tour et se jetta dans les bras de Ryu, lui faisant un bisous sur la joue et s'enfuit chez elle sans se retourner.
+
 ## Chapitre 20 :
+
 De retour chez lui, Ryu déposa son sac près de la porte, se lava les mains et s’installa à table pour le dîner. Ses parents étaient déjà là : son père nettoyait le plan de travail, et sa mère rangeait les couverts dans le lave-vaisselle. L’ambiance était tranquille, mais une question, une seule, hantait l’esprit de Ryu depuis plusieurs jours.
 Il observa sa mère un instant, hésitant, cherchant les mots justes. Puis, finalement…
 — Maman ? demanda-t-il doucement.
@@ -1420,7 +1449,9 @@ Son regard se posa sur la lettre, toujours scellée, posée au bout de son lit. 
 Mais rien que l’idée de l’ouvrir lui nouait l’estomac. Même s’il avait accepté que Rose était partie, il ne pouvait s’empêcher de ressentir un stress intense à l’idée de lire ses mots, ses pensées. Cette peur le paralysait.
 Il se détourna, serrant les poings, le regard fixé sur un point invisible dans la pièce.
 — Pas encore… murmura-t-il, sa voix à peine audible.
+
 ## Chapitre 21 :
+
 Finalement, Ryu repensa à ce que Seb lui avait conseillé : faire du sport pour se vider la tête. Après tout, pourquoi pas ? Cela pourrait être une bonne idée. Il attrapa une veste légère à capuche, l’enfila, puis sortit de chez lui, en direction du gymnase.
 Au lieu de prendre le chemin habituel, il décida de s’égarer un peu dans les ruelles du village, comme pour découvrir de nouveaux décors, s’éloigner un peu de la routine.
 Il observa les gens devant leurs maisons : certains passaient le balai devant leur porte, d’autres nettoyaient leurs voitures, profitant de ce bel après-midi. Plus loin, il entendit des enfants jouer au ballon, leurs éclats de rire résonnant dans l’air doux. Le temps était agréable : une légère brise et une chaleur modérée.
@@ -1531,7 +1562,9 @@ Les mots frappèrent Ryu comme un coup de poing. Il serra les mâchoires, les la
 Sa mère ne répondit pas immédiatement. Elle le regarda, le cœur lourd, puis se leva pour poser une main réconfortante sur son épaule.
 — Parce que, Ryu… parfois, la vie nous donne des épreuves pour qu’on devienne plus forts. Rose t’aimait, et une partie d’elle t’accompagne toujours. Mais tu dois apprendre à avancer, pas à rester figé dans le passé.
 Ryu détourna la tête, incapable de répondre. Sa respiration était saccadée, et ses pensées tourbillonnaient dans un chaos insupportable.
+
 ## Chapitre 22 :
+
 Ryu se réveilla après une nuit agitée. L’air lui semblait lourd, presque étouffant, comme si tout son corps souffrait en silence. Il enfila ses vêtements habituels : jogging, baskets, veste à capuche. Ses écouteurs enfoncés dans ses oreilles, il se dirigea vers l’appartement d’Adeline.
 Il sonna, mais, comme la veille, aucune réponse. Il appela, mais elle ne décrocha pas.
 Frustré, il fit demi-tour et prit le chemin du lycée.
@@ -1607,7 +1640,9 @@ Sa vue se brouilla soudain, comme si un voile se posait devant ses yeux. Il chan
 Lorsque Ryu s’effondra à l’hôpital, il ne se réveilla pas. Les bruits autour de lui s’évanouirent, et il sentit son esprit sombrer dans une sorte de vide. À mesure qu’il chutait, des fragments de tout ce qu’il avait vécu lui revinrent en mémoire : son altercation avec M. Lefèvre, ses moments de complicité avec Adeline. Il tenta de se raccrocher à ces souvenirs, mais ils se délitèrent, s’évanouissant comme de la fumée.
 Une étrange sensation d’apesanteur l’envahit, comme si son corps flottait dans un vide sans fin. Les contours de la réalité s’effaçaient, laissant place à une obscurité insondable. Il ne savait plus où il était, ni même qui il était. Ses pensées dérivaient, entremêlant des souvenirs et des impressions qu’il n’arrivait plus à démêler.
 Quelque part au fond de lui, une part de conscience semblait lui murmurer qu’il était prisonnier, mais de quoi ? D’un rêve, d’un souvenir, ou de quelque chose de plus profond encore ? Tout lui échappait, et il n’avait plus d’emprise sur rien.
+
 ## Chapitre 23 :
+
 Adeline avait passé toute la journée dans son lit. Elle s’était réveillée brièvement en milieu d’après-midi, mais son corps lourd et son esprit embrumé ne lui avaient laissé que peu d’options. Elle avait somnolé, sombré à nouveau dans un sommeil agité, et quand elle rouvrait les yeux, les heures semblaient s’être volatilisées.
 Son téléphone vibrait de temps à autre, mais c’était toujours pour des notifications sans importance. Elle jetait un coup d’œil rapide, espérant voir s’afficher le nom de Ryu. Mais rien. Pas d’appel, pas de message. Elle fronça les sourcils. Était-ce elle qui n’avait pas répondu la dernière fois ? Avait-il seulement essayé de la joindre ?
 Un soupir lui échappa. Elle savait qu’elle n’avait pas vraiment le droit de lui en vouloir. Après tout, Ryu avait ses propres soucis, et elle comprenait qu’il ne pouvait pas toujours être là pour elle. Mais malgré cela, elle ne pouvait s’empêcher de ressentir un vide, une absence qu’elle aurait voulu combler.
@@ -1668,7 +1703,9 @@ Emma croisa son regard et se pencha légèrement en avant.
 Les mots résonnèrent dans l’esprit d’Adeline, comme une pierre tombant dans un puits sans fond. Ses yeux s’écarquillèrent, mais avant qu’elle ne puisse poser une autre question, Emma se leva.
 — Repose-toi. Tu en as besoin, conclut-elle avant de quitter la pièce.
 Adeline fut plongée dans une lumière aveuglante. Tout devint flou, confus. Ses pensées s’effacèrent, remplacées par un néant profond.
+
 ## Chapitre 24 :
+
 Puis, au loin, un son émergea du vide : bip… bip… bip. Régulier, mécanique, implacable.
 Des voix lointaines s’ajoutèrent à ce rythme. Des murmures indistincts, mêlés de pleurs. Chaque son résonnait comme un écho dans une caverne infinie.
 Puis, le silence.
@@ -1809,7 +1846,9 @@ Adeline hocha la tête, le sourire aux lèvres.
 — Tout le monde avance, d’une manière ou d’une autre. Et toi, Ryu ? Tu avances aussi, pas vrai ?
 Il fixa un instant la rose bleue posée sur la table de chevet.
 — Oui, Adeline. Je vais me relever.
+
 ## épilogue :
+
 Une fin d’après-midi ensoleillée baignait le quai de la gare. Ryu attendait, sac à dos sur les épaules, les yeux rivés sur les trains qui défilaient. Le bruit des roues sur les rails et les annonces régulières résonnaient dans l’air. Il inspira profondément, se sentant léger, presque libre.
 Cela faisait trois mois qu’il avait quitté l’hôpital. Désormais, il était complètement remis de son accident. Il restait parfois quelques douleurs fantômes, mais les médecins lui avaient assuré que ce ne serait que temporaire.
 Son esprit vagabondait, revisitant tout ce qu’il avait traversé. Il repensa à l’année écoulée, aux combats qu’il avait menés. Le jour où il s’était rebellé pour défendre Max. La satisfaction d’apprendre que M. Lefèvre avait finalement été suspendu. Une victoire amère, mais une victoire tout de même.
